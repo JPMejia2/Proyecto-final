@@ -16,14 +16,14 @@ body {
 
 header {
     width: 100%;
-    height: auto;
+    height: 18em;
     margin: auto;
-    background-color: darkgrey;
+    background-color: gray;
 }
 
 .bodyGeneral {
     width: 160em;
-    height: auto;
+    height: 106em;
     margin: auto;
     background-color: black;
     display: flex;
@@ -39,6 +39,7 @@ header {
     width: 45em;
     height: 10em;
     margin-top: 4em;
+    margin-left: -5em;
     background-color: black;
 }
 
@@ -46,10 +47,34 @@ header {
     width: 110em;
     height: 10em;
     margin-top: 4em;
+    margin-right: 2em;
     background-color: black;
     border: 1px solid white;
     border-radius: 10px;
 }
+
+.nav{
+    font-family: 'Oswald', sans-serif;
+    float: left;
+    margin-left: 7em;
+    margin-top: 4.5em;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 4.3em;
+    font-size: 1.4em;
+    border-radius: 0.3em 3px 3px 3px;
+}
+
+.nav a:hover{
+    color: gray;
+    
+}
+
 
 @media only screen and (max-width: 1600px) {
     /* Laptop 1600px */
@@ -72,42 +97,127 @@ header {
 
 section {
     width: 100%;
-    height: auto;
-    background-color: darkgrey;
+    height: 110em;
+    background-color: gray;
 }
 
 .producto {
     width: 38.5em;
-    height: 60em;
-    margin-top: 8em;
+    height: 63em;
+    margin-top: 2em;
     margin-left: 2em;
     margin-right: 2em;
     border: none;
 }
 
+.producto:hover{
+    color: black;
+    opacity: 0.8;
+}
+
 .img {
     width: 100%;
-    height: 50em;
+    height: 80em;
     background-color: gray;
     
 }
 
 .imgRGB {
-    background-image: url(../img/375_375.jpg);
+    background-image: url(../img/891-zara-ropa-homre-verano-2019-2656.jpg);
     background-size: cover;
     background-position: center;
-    border: 1px solid #F05C07;
+}
+
+.producto1 {
+    width: 38.5em;
+    height: 63em;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border: none;
+}
+
+.producto1:hover{
+    color: black;
+    opacity: 0.8;
+}
+
+.img {
+    width: 100%;
+    height: 80em;
+    background-color: gray;
+    
+}
+
+.imgRGB1 {
+    background-image: url(../img/854-tienda-de-ropa-zara-mujer-113.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.producto2 {
+    width: 38.5em;
+    height: 63em;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border: none;
+}
+
+.producto2:hover{
+    color: black;
+    opacity: 0.8;
+}
+
+.img {
+    width: 100%;
+    height: 80em;
+    background-color: gray;
+    
+}
+
+.imgRGB2 {
+    background-image: url(../img/917-rebajas-zara-kids-moda-ni%C3%B1os-nueva-colecci%C3%B3n-primavera-826.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.producto3 {
+    width: 38.5em;
+    height: 63em;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border: none;
+}
+
+.producto3:hover{
+    color: black;
+    opacity: 0.8;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    
+}
+
+.imgRGB3 {
+    background-image: url(../img/ea109024ff3634b5de5511ce82ee6da8.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .titulo {
-    width: 100%;
-    height: 10em;
+    width: auto;
+    height: auto;
     margin-top: 4em;
 }
 
 .titulo h1 {
-    font-size: 3em;
-    color: darkgray;
+    font-size: 1.7em;
+    color: whITE;
 }
 
 .parrafo {
@@ -117,9 +227,10 @@ section {
 }
 
 .parrafo p {
-    font-size: 2em;
+    font-size: 1.2em;
     text-align: justify;
     color: white;
+    font-family: inherit
 }
 
 
@@ -129,18 +240,18 @@ section {
 
 @media only screen and (max-width:767px) {
     .bodyGeneral {
-        width: 95%;
+        width: 100%;
     }
     .logo {
-        width: 30%;
+        width: 20%;
         height: 10em;
         margin-top: 4em;
     }
     .encabezado {
-        width: 65%;
+        width: 100%;
         height: 10em;
         margin-top: 4em;
-        background-color: #168374;
+        background-color: black;
     }
     .bodyContenido {
         display: block;
@@ -150,7 +261,7 @@ section {
     }
     .img {
         width: 100%;
-        height: 50em;
+        height: 100%;
         background-color: gray;
     }
 }
